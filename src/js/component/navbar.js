@@ -24,7 +24,7 @@ export const Navbar = () => {
 
 			<div className="cell-2" id="containerCell2">
 				<div className="dropdown">
-					<button class="dropbtn" id="btdropdownnav">
+					<button className="dropbtn" id="btdropdownnav">
 						Opciones
 					</button>
 					<div className="dropdown-content" id="dropdown-content">
