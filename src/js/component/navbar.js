@@ -3,36 +3,27 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
 	return (
-		<div className="container-1" id="containerNavbar">
-			<div className="cell-1" id="containerCell1">
-				<button className="buttonNav" id="btinicio">
+		<div className="container-nav" id="container-nav">
+			<div className="cell-left" id="left">
+				<button className="button-left" id="Inicio">
 					Inicio
 				</button>
-				<button className="buttonNav" id="btleads">
+				<button className="button-left" id="Leads">
 					Leads
 				</button>
-				<button className="buttonNav" id="btcalendario">
+				<button className="button-left" id="Oportunidades">
+					Oportunidades
+				</button>
+				<button className="button-left" id="Calendario">
 					Calendario
 				</button>
-				<button className="buttonNav" id="btmetricas">
-					Métricas
-				</button>
-				<button className="buttonNav" id="btinformes">
+				<button className="button-left" id="Informes">
 					Informes
 				</button>
 			</div>
 
-			<div className="cell-2" id="containerCell2">
-				<div className="dropdown">
-					<button className="dropbtn" id="btdropdownnav">
-						Opciones
-					</button>
-					<div className="dropdown-content" id="dropdown-content">
-						<a href="#">Link 1</a>
-						<a href="#">Link 2</a>
-						<a href="#">Link 3</a>
-					</div>
-				</div>
+			<div className="cell-right" id="right">
+				<p>Nombre de Usuario</p>
 			</div>
 		</div>
 	);
