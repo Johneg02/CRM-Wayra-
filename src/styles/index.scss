@@ -32,4 +32,42 @@
     padding-left: 250px;
 }
 
+/* Footer */
+
+.container-foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.brand {
+    background-color: #1289A7;
+    padding-left: 50px;
+}
+
+.social {
+    background-color: #1289A7;
+    padding-left: 400px;
+}
+
+    .fa {
+        font-size: 30px;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+
+    .fa-instagram {
+        color:#ED4C67;
+    }
+
+    .fa-twitter {
+        color:#EE5A24;
+    }
     
+    .fa-facebook-f {
+        color:#1B1464;
+    }
+
+    .fa-pinterest-p {
+        color: #e84393;
+    }
