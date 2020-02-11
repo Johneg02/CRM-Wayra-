@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 export const Footer = () => (
-	<footer className="container-foot" id="container-foot">
+	<footer className="footer container-foot" id="container-foot">
 		<div className="brand" id="brand">
 			<h4>Nombre de la App</h4>
 		</div>

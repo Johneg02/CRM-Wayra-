@@ -5,18 +5,18 @@ export const Navbar = () => {
 	return (
 		<div className="container-nav" id="container-nav">
 			<div className="cell-left" id="left">
-				<button className="button-left" id="Inicio">
+				<Link to="/" className="button-left">
 					Inicio
-				</button>
-				<button className="button-left" id="Leads">
-					Leads
-				</button>
-				<button className="button-left" id="Oportunidades">
+				</Link>
+				<Link to="/clientes" className="button-left">
+					Clientes
+				</Link>
+				<Link to="/oportunidades" className="button-left">
 					Oportunidades
-				</button>
-				<button className="button-left" id="Calendario">
+				</Link>
+				<Link to="/calendario" className="button-left">
 					Calendario
-				</button>
+				</Link>
 				<button className="button-left" id="Informes">
 					Informes
 				</button>

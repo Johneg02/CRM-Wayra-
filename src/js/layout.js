@@ -3,6 +3,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
+import { Clientes } from "./views/Clientes";
+import { Oportunidades } from "./views/Oportunidades";
+import { Calendario } from "./views/Calendario";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
@@ -27,8 +30,9 @@ export const Layout = () => {
 					<AddClients />
 					<Switch>
 						<Route exact path="/" component={Home} />
-						<Route path="/demo" component={Demo} />
-						<Route path="/single/:theid" component={Single} />
+						<Route exact path="/clientes" component={Clientes} />
+						<Route exact path="/oportunidades" component={Oportunidades} />
+						<Route exact path="/calendario" component={Calendario} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Footer />
