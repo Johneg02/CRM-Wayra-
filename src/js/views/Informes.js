@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Oportunidades = () => {
+export const Informes = () => {
 	return (
 		<div className="container-lay" id="lay">
 			<div className="functionality" id="functionality">

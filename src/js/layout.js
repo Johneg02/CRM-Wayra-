@@ -6,6 +6,7 @@ import { Home } from "./views/home";
 import { Clientes } from "./views/Clientes";
 import { Oportunidades } from "./views/Oportunidades";
 import { Calendario } from "./views/Calendario";
+import { Informes } from "./views/Informes";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
@@ -33,6 +34,7 @@ export const Layout = () => {
 						<Route exact path="/clientes" component={Clientes} />
 						<Route exact path="/oportunidades" component={Oportunidades} />
 						<Route exact path="/calendario" component={Calendario} />
+						<Route exact path="/informes" component={Informes} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Footer />

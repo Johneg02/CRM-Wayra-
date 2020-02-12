@@ -17,9 +17,9 @@ export const Navbar = () => {
 				<Link to="/calendario" className="button-left">
 					Calendario
 				</Link>
-				<button className="button-left" id="Informes">
+				<Link to="/informes" className="button-left">
 					Informes
-				</button>
+				</Link>
 			</div>
 
 			<div className="cell-right" id="right">
