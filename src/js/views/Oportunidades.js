@@ -1,4 +1,5 @@
 import React from "react";
+import Notificaciones from "../component/Notificaciones";
 
 export const Oportunidades = () => {
 	return (
@@ -7,7 +8,7 @@ export const Oportunidades = () => {
 				<h1>funcionalidad</h1>
 			</div>
 			<div className="notification" id="notification">
-				<h1>Notificaciones</h1>
+				<Notificaciones />
 			</div>
 		</div>
 	);

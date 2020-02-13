@@ -1,4 +1,5 @@
 import React from "react";
+import Notificaciones from "../component/Notificaciones";
 
 import "../../styles/home.scss";
 
@@ -8,7 +9,7 @@ export const Home = () => (
 			<h1>funcionalidad</h1>
 		</div>
 		<div className="notification" id="notification">
-			<h1>Notificaciones</h1>
+			<Notificaciones />
 		</div>
 	</div>
 );
